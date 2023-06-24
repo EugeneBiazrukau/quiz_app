@@ -18,7 +18,7 @@ const defaultQuestions = [
 
 const QuizApp = () => {
   const topics = [
-    { name: 'Short set', questions: defaultQuestions },
+    { name: 'Short set', questions: shortQuestions },
     // Add more topic objects here...
   ];
 
@@ -93,7 +93,7 @@ const QuizApp = () => {
     if (randomizeQuestions && selectedTopic) {
       shuffleQuestions();
     }
-  }, [randomizeQuestions, selectedTopic]);
+  }, [randomizeQuestions, selectedTopic?.name]);
 
   return (
     <div className="quiz-app">
