@@ -11,7 +11,7 @@ const defaultQuestions = [
       'держаться правого берега',
     ],
     correctAnswerIndex: 2,
-    image: ['/img/image7.png', '/img/image8.png'],
+    image: ['img/image7.png', 'img/image8.png'],
   },
   // Add more questions here...
 ];

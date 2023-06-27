@@ -7,7 +7,7 @@ const shortQuestions = [
       'место с небезопасным волнением',
     ],
     correctAnswerIndex: 1,
-    image: '/img/image1.png',
+    image: 'img/image1.png',
   },
   {
     question: 'Что должен сделать рулевой яхты, когда заметит на курсе знаки ниже?',
@@ -17,7 +17,7 @@ const shortQuestions = [
       'пересекать границы, отмеченные красным цветом',
     ],
     correctAnswerIndex: 1,
-    image: '/img/image2.png',
+    image: 'img/image2.png',
   },
   {
     question: 'На водном пути под мостом рулевой заметил знак ниже. Что означает этот знак?',
@@ -27,7 +27,7 @@ const shortQuestions = [
       'рекомендуется проход в обоих направлениях',
     ],
     correctAnswerIndex: 2,
-    image: '/img/image3.png',
+    image: 'img/image3.png',
   },
   {
     question: 'Где рулевой должен пришвартоваться, если идет в направлении знака ниже?',
@@ -37,7 +37,7 @@ const shortQuestions = [
       'можно швартовать в направлении стороне справа от знака',
     ],
     correctAnswerIndex: 2,
-    image: '/img/image4.png',
+    image: 'img/image4.png',
   },
   {
     question: 'С какой стороны следует обойти кардинальный знак внизу?',
@@ -47,7 +47,7 @@ const shortQuestions = [
       'всегда обходим правым бортом',
     ],
     correctAnswerIndex: 0,
-    image: '/img/image5.png',
+    image: 'img/image5.png',
   },
   {
     question: 'Кто отвечает за безопасность яхты и команды?',
@@ -157,7 +157,7 @@ const shortQuestions = [
       'держаться на безопасном расстоянии от знака',
     ],
     correctAnswerIndex: 1,
-    image: '/img/image6.png'
+    image: 'img/image6.png'
   },
   {
     question:
@@ -168,7 +168,7 @@ const shortQuestions = [
       'держаться правого берега',
     ],
     correctAnswerIndex: 2,
-    image: ['/img/image7.png', '/img/image8.png'],
+    image: ['img/image7.png', 'img/image8.png'],
   },
   {
     question: 'Излишне выбранные паруса на курсе полный бакштаг приведут к:',
@@ -427,7 +427,7 @@ const shortQuestions = [
       'предписание подачи звукового сигнала',
     ],
     correctAnswerIndex: 2,
-    image: '/img/image9.png'
+    image: 'img/image9.png'
   },
   {
     question: 'Что означает знак ниже?',
@@ -437,7 +437,7 @@ const shortQuestions = [
       'линия напряжения над водным путём на высоте 12 метров над уровнем наименьшей воды',
     ],
     correctAnswerIndex: 1,
-    image: '/img/image10.png'
+    image: 'img/image10.png'
   },
   {
     question:
@@ -544,7 +544,7 @@ const shortQuestions = [
     question: 'Какой из расположенных знаков ниже ставится при выходе с канала?',
     options: ['только тип А', 'только тип В', 'А с правой стороны выхода, В с левой стороны выхода'],
     correctAnswerIndex: 2,
-    image: '/img/image11.png',
+    image: 'img/image11.png',
   },
   {
     question:
